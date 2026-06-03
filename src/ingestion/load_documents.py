@@ -2,9 +2,22 @@ from pathlib import Path
 
 policy_folder = Path("data/policies")
 
-files = list(policy_folder.glob("*.md"))
+documents = []
 
-print(f"Loaded {len(files)} documents")
+for file in policy_folder.glob("*.md"):
+    content = file.read_text(encoding="utf-8")
 
-for file in files:
-    print(file.name)
+    documents.append(
+        {
+            "source": file.name,
+            "content": content,
+        }
+    )
+
+print(f"Loaded {len(documents)} documents")
+
+print("\nFirst document:")
+print(documents[0]["source"])
+
+print("\nPreview:")
+print(documents[0]["content"][:500])
