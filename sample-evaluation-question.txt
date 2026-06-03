@@ -1,0 +1,118 @@
+POL-002
+How many Vacation Leave days do regular employees receive?
+Can Vacation Leave be carried over?
+How many carryover leave days are allowed?
+When does carryover leave expire?
+How many Sick Leave days are provided?
+Does Sick Leave carry over?
+When is a medical certificate required?
+How much Bereavement Leave is available?
+Can employees on a PIP take leave?
+How much advance notice is required for planned leave?
+
+POL-003
+Is InterCloud remote-first?
+What are the core collaboration hours?
+Can employees work outside the Philippines?
+How long can employees work abroad?
+What approvals are required for working outside the Philippines?
+How much is the monthly internet allowance?
+What internet speed is recommended?
+What meetings are employees required to attend?
+What should employees do if equipment is lost?
+Can employees work from a coworking space?
+
+PL-004
+Is MFA required?
+Which systems require MFA?
+How long before devices auto-lock?
+How many characters must passwords contain?
+What data classifications exist?
+Can client data be uploaded to public AI tools?
+How quickly must security incidents be reported?
+What should employees do if a laptop is stolen?Is MFA required?
+Which systems require MFA?
+How long before devices auto-lock?
+How many characters must passwords contain?
+What data classifications exist?
+Can client data be uploaded to public AI tools?
+How quickly must security incidents be reported?
+What should employees do if a laptop is stolen?
+
+POL-005
+Can employees install software on company laptops?
+Is personal internet browsing allowed?
+Can employees upload client data into ChatGPT?
+Are personal cloud drives allowed for company files?
+Can source code be copied to personal repositories?
+Is limited personal use of company equipment permitted?
+Can employees act as official company spokespersons on social media?
+What should employees do if they discover unauthorized software?
+
+POL-006
+How long do employees have to submit expenses?
+How many payroll cycles does reimbursement usually take?
+What documentation is required?
+What is the meal reimbursement limit?
+Can alcohol be reimbursed?
+What expenses require Department Head approval?
+What approvals are needed for a ₱25,000 expense?
+Can traffic violations be reimbursed?
+How are foreign currency expenses converted?
+Can personal subscriptions be reimbursed?
+
+POL-007
+Who approves domestic travel?
+Who approves international travel?
+What additional approval is required for international trips longer than 7 days?
+What class of airfare should employees book?
+What is the maximum recommended domestic hotel rate?
+What is the international hotel guideline?
+What is the domestic meal allowance?
+Can employees combine personal and business travel?
+When must travel advances be reconciled?
+How long must a passport remain valid for international travel?
+
+POL-008
+Who owns company-issued laptops?
+What should employees do if a laptop is stolen?
+How quickly must equipment loss be reported?
+Can employees repair company laptops themselves?
+Are household members allowed to use company devices?
+What assets must be returned upon resignation?
+Can software licenses be shared?
+What should employees do during an asset audit?
+Can company laptops be checked into baggage during travel?
+What happens if assets are not returned after separation?
+
+POL-009
+How long is probation?
+Can probation be extended?
+How often are performance reviews conducted?
+What are the performance rating levels?
+How long does a PIP last?
+Can a PIP be extended?
+What are possible PIP outcomes?
+How long does an employee have to appeal a review?
+
+POL-010
+What are the stages of the hiring process?
+Who can approve employment offers?
+How long does a candidate have to accept an offer?
+When can an offer be withdrawn?
+What background checks may be performed?
+When does a referral qualify for a referral bonus?
+Can internal employees apply for open positions?
+What documents may be required before employment begins?
+
+POL-011
+How much is the annual learning budget?
+Does the learning budget carry over?
+What certifications are supported?
+When can certification fees be reimbursed?
+How many Study Leave days are available?
+Can graduate degrees be supported?
+What documents are required for reimbursement?
+What happens if an employee resigns after receiving expensive training?
+What skills are considered priority areas?
+Can training be completed during working hours?
