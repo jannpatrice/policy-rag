@@ -14,8 +14,8 @@ for file in Path("data/policies").glob("*.md"):
     )
 
 splitter = RecursiveCharacterTextSplitter(
-    chunk_size=1000,
-    chunk_overlap=200,
+    chunk_size=500,
+    chunk_overlap=100
 )
 
 chunks = []
