@@ -6,15 +6,26 @@ from langchain_chroma import Chroma
 
 load_dotenv()
 
-# Initialize once
+# =========================
+# LLM
+# =========================
+
 llm = ChatGroq(
     model="llama-3.1-8b-instant",
     temperature=0
 )
 
+# =========================
+# Embeddings
+# =========================
+
 embeddings = HuggingFaceEmbeddings(
     model_name="sentence-transformers/all-MiniLM-L6-v2"
 )
+
+# =========================
+# Vector Store
+# =========================
 
 vectorstore = Chroma(
     persist_directory="./chroma_db",
@@ -22,7 +33,8 @@ vectorstore = Chroma(
 )
 
 retriever = vectorstore.as_retriever(
-    search_kwargs={"k": 3}
+    search_type="similarity",
+    search_kwargs={"k": 1}
 )
 
 
@@ -30,24 +42,29 @@ def ask_question(question: str):
 
     docs = retriever.invoke(question)
 
-    context = "\n\n".join(
-        [doc.page_content for doc in docs]
-    )
+    context = ""
 
-    sources = sorted(
-        list(set(doc.metadata["source"] for doc in docs))
-    )
+    for doc in docs:
+        context += f"""
+SOURCE: {doc.metadata["source"]}
+
+{doc.page_content}
+
+----------------------------------------
+"""
 
     prompt = f"""
 You are an HR Policy Assistant.
 
-Answer the user's question using ONLY the information provided in the context.
+Answer the user's question using ONLY the information contained in the provided context.
 
 Rules:
-- Provide a complete and professional answer.
-- Do not make up information.
-- If the answer cannot be found in the context, respond with:
+- Do not invent information.
+- Do not use outside knowledge.
+- If the answer cannot be found, respond:
   "I could not find that information in the policy documents."
+- Provide a concise professional answer.
+- Mention the policy source when appropriate.
 
 Context:
 {context}
@@ -58,4 +75,4 @@ Question:
 
     response = llm.invoke(prompt)
 
-    return response.content, sources
+    return response.content, docs

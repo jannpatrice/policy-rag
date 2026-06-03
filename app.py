@@ -4,10 +4,15 @@ from src.retrieval.rag_service import ask_question
 
 st.set_page_config(
     page_title="Policy Assistant",
-    page_icon="📚"
+    page_icon="📚",
+    layout="wide"
 )
 
 st.title("📚 Policy Assistant")
+
+st.write(
+    "Ask questions about company policies."
+)
 
 question = st.text_input(
     "Ask a policy question"
@@ -19,12 +24,24 @@ if st.button("Ask"):
 
         with st.spinner("Searching policies..."):
 
-            answer, sources = ask_question(question)
+            answer, docs = ask_question(question)
+
+        # =========================
+        # Answer
+        # =========================
 
         st.subheader("Answer")
+
         st.write(answer)
+
+        # =========================
+        # Citations
+        # =========================
 
         st.subheader("Sources")
 
-        for source in sources:
-            st.write(f"- {source}")
+        for doc in docs:
+
+            with st.expander(doc.metadata["source"]):
+
+                st.write(doc.page_content)
