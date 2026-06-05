@@ -1,65 +1,31 @@
 question,expected_answer,source_policy
-"How many Vacation Leave days do regular employees receive per year?","15 Vacation Leave days per calendar year","POL-002"
-"How many Sick Leave days do regular employees receive per year?","10 Sick Leave days per calendar year","POL-002"
-"How many Vacation Leave days may be carried over?","Up to 5 unused Vacation Leave days may be carried over","POL-002"
-"When does carryover Vacation Leave expire?","March 31 of the following year","POL-002"
-"Does Sick Leave carry over to the next year?","No, unused Sick Leave expires at year-end","POL-002"
-"When is a medical certificate required for Sick Leave?","When Sick Leave exceeds 2 consecutive working days","POL-002"
-"How much Bereavement Leave is available?","3 paid working days","POL-002"
-"What is the company's work model?","Remote-first","POL-003"
-"What are the core collaboration hours?","10:00 AM to 3:00 PM Philippine Time","POL-003"
-"Can employees work outside the Philippines?","Yes, with approval for up to 30 calendar days per year","POL-003"
-"What approvals are required for working outside the Philippines?","Immediate Manager and Department Head","POL-003"
-"How much is the monthly internet allowance?","₱1,500 per month","POL-003"
-"What is the recommended minimum internet speed?","50 Mbps download and 20 Mbps upload","POL-003"
-"Is MFA required for company systems?","Yes, MFA is mandatory for specified systems","POL-004"
-"What is the minimum password length?","12 characters","POL-004"
-"What data classification is used for production credentials?","Restricted","POL-004"
-"How quickly must security incidents be reported?","Within 24 hours of discovery","POL-004"
-"After how many minutes should devices automatically lock?","15 minutes of inactivity","POL-004"
-"Can client confidential information be entered into public AI tools?","No","POL-004"
-"Can employees install unauthorized software?","No","POL-005"
-"Is limited personal use of company systems allowed?","Yes, if it does not interfere with work or create security risks","POL-005"
-"Can employees copy source code to personal repositories?","No","POL-005"
-"Can company files be stored in personal cloud drives?","No","POL-005"
-"What is the meal reimbursement limit for domestic business meals?","₱800 per person","POL-006"
-"How long do employees have to submit reimbursement requests?","30 calendar days from the expense date","POL-006"
-"What approvals are required for expenses above ₱20,000?","Immediate Manager, Department Head, and Finance Manager","POL-006"
-"Are traffic violations reimbursable?","No","POL-006"
-"How are foreign currency expenses reimbursed?","Converted to PHP using the company's financial institution exchange rate","POL-006"
-"Who approves domestic travel?","Immediate Manager","POL-007"
-"Who approves international travel?","Immediate Manager and Department Head","POL-007"
-"What additional approval is required for international travel longer than 7 days?","Executive approval","POL-007"
-"What is the domestic hotel guideline?","Up to ₱6,000 per night","POL-007"
-"What is the international hotel guideline?","Up to USD 200 per night","POL-007"
-"What is the domestic travel meal allowance?","₱1,500 per day","POL-007"
-"How long before departure should travel advances be requested?","At least 5 working days","POL-007"
-"When must travel advances be reconciled?","Within 10 working days after return","POL-007"
-"Who owns company-issued equipment?","InterCloud Solutions Philippines, Inc.","POL-008"
-"How quickly must lost equipment be reported?","Within 24 hours of discovery","POL-008"
-"Can employees perform their own equipment repairs?","No, unauthorized repairs are not permitted","POL-008"
-"What must employees return upon separation?","All company-issued assets","POL-008"
-"Can software licenses be shared?","No","POL-008"
-"How long is the probationary period?","Up to 6 months","POL-009"
-"How often are formal performance reviews conducted?","Twice annually","POL-009"
-"What are the performance rating levels?","Exceptional, Exceeds Expectations, Meets Expectations, Needs Improvement, Unsatisfactory","POL-009"
-"How long does a typical PIP last?","30 calendar days","POL-009"
-"Can a PIP be extended?","Yes, generally for an additional 30 calendar days","POL-009"
-"What are possible PIP outcomes?","Successful Completion, PIP Extension, or Separation","POL-009"
-"How many working days does an employee have to appeal a review?","10 working days","POL-009"
-"What are the stages of the hiring process?","HR Screening, Hiring Manager Interview, Technical/Functional Assessment, Final Interview","POL-010"
-"Who can approve employment offers?","Hiring Manager, Department Head, and People & Culture","POL-010"
-"How many business days does a candidate have to accept an offer?","5 business days","POL-010"
-"When may an employment offer be withdrawn?","When material misrepresentations are discovered","POL-010"
-"When does a referral qualify for a referral bonus?","When the referred employee successfully completes probation","POL-010"
-"What is the annual learning budget?","Up to ₱30,000 per calendar year","POL-011"
-"Does the learning budget carry over?","No","POL-011"
-"When can certification exams be reimbursed?","When pre-approved and the employee passes the examination","POL-011"
-"How many Study Leave days are available?","Up to 3 working days per calendar year","POL-011"
-"What happens if an employee resigns within 90 days after receiving training worth more than ₱20,000?","They may be required to reimburse a prorated portion","POL-011"
-"What skills are identified as strategic priorities?","AI, Cloud Computing, Software Architecture, Cybersecurity, Data Engineering, Project Management, and Leadership","POL-011"
-"What is the maximum gift value an employee may accept without written approval?","₱5,000","POL-012"
-"Are cash gifts permitted?","No","POL-012"
-"Does confidentiality continue after employment ends?","Yes","POL-012"
-"Is retaliation against employees who report concerns allowed?","No","POL-012"
-"What disciplinary actions may result from policy violations?","Coaching, Written Warning, Suspension, or Termination","POL-012"
+How many Vacation Leave days do regular employees receive per year?,15 Vacation Leave days per calendar year,POL-002
+How many Sick Leave days do regular employees receive per year?,10 Sick Leave days per calendar year,POL-002
+Does Sick Leave carry over to the next year?,"No, unused Sick Leave expires at year-end",POL-002
+What is the company's work model?,Remote-first,POL-003
+What are the core collaboration hours?,10:00 AM to 3:00 PM Philippine Time,POL-003
+What approvals are required for working outside the Philippines?,Immediate Manager and Department Head,POL-003
+Is MFA required for company systems?,"Yes, MFA is mandatory for specified systems",POL-004
+What is the minimum password length?,12 characters,POL-004
+What data classification is used for production credentials?,Restricted,POL-004
+Can employees install unauthorized software?,No,POL-005
+Is limited personal use of company systems allowed?,"Yes, if it does not interfere with work or create security risks",POL-005
+Can employees copy source code to personal repositories?,No,POL-005
+What is the meal reimbursement limit for domestic business meals?,₱800 per person,POL-006
+How are foreign currency expenses reimbursed?,Converted to PHP using the company's financial institution exchange rate,POL-006
+Who approves domestic travel?,Immediate Manager,POL-007
+Who approves international travel?,Immediate Manager and Department Head,POL-007
+Who owns company-issued equipment?,"InterCloud Solutions Philippines, Inc.",POL-008
+How quickly must lost equipment be reported?,Within 24 hours of discovery,POL-008
+How long is the probationary period?,Up to 6 months,POL-009
+How often are formal performance reviews conducted?,Twice annually,POL-009
+What are the performance rating levels?,"Exceptional, Exceeds Expectations, Meets Expectations, Needs Improvement, Unsatisfactory",POL-009
+What are the stages of the hiring process?,"HR Screening, Hiring Manager Interview, Technical/Functional Assessment, Final Interview",POL-010
+Who can approve employment offers?,"Hiring Manager, Department Head, and People & Culture",POL-010
+What is the annual learning budget?,"Up to ₱30,000 per calendar year",POL-011
+Does the learning budget carry over?,No,POL-011
+How many Study Leave days are available?,Up to 3 working days per calendar year,POL-011
+"What happens if an employee resigns within 90 days after receiving training worth more than ₱20,000?",They may be required to reimburse a prorated portion,POL-011
+What skills are identified as strategic priorities?,"AI, Cloud Computing, Software Architecture, Cybersecurity, Data Engineering, Project Management, and Leadership",POL-011
+What is the maximum gift value an employee may accept without written approval?,"₱5,000",POL-012
+Are cash gifts permitted?,No,POL-012
