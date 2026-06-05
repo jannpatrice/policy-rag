@@ -10,10 +10,11 @@ load_dotenv()
 # LLM
 # =========================
 
-llm = ChatGroq(
-    model="llama-3.1-8b-instant",
-    temperature=0
-)
+def get_llm():
+    return ChatGroq(
+        model="llama-3.1-8b-instant",
+        temperature=0
+    )
 
 # =========================
 # Embeddings
@@ -39,7 +40,7 @@ retriever = vectorstore.as_retriever(
 
 
 def ask_question(question: str):
-
+    llm = get_llm()
     docs = retriever.invoke(question)
 
     context = ""
