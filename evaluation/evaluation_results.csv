@@ -1,0 +1,147 @@
+question,expected_answer,actual_answer
+How many Vacation Leave days do regular employees receive per year?,15 Vacation Leave days per calendar year,"Regular employees are entitled to fifteen (15) Vacation Leave days per calendar year. 
+
+(POL-002-leave-and-time-off-policy.md)"
+How many Sick Leave days do regular employees receive per year?,10 Sick Leave days per calendar year,"Regular employees are entitled to ten (10) Sick Leave days per calendar year. (Source: POL-002-leave-and-time-off-policy.md, Section 5. Sick Leave (SL))"
+How many Vacation Leave days may be carried over?,Up to 5 unused Vacation Leave days may be carried over,"According to POL-002-leave-and-time-off-policy.md, employees may carry over up to five (5) unused Vacation Leave days into the following calendar year."
+When does carryover Vacation Leave expire?,March 31 of the following year,"According to POL-002-leave-and-time-off-policy.md, carryover Vacation Leave must be used by March 31 of the following year. Unused carryover leave expires after the deadline."
+Does Sick Leave carry over to the next year?,"No, unused Sick Leave expires at year-end","No, unused Sick Leave does not carry over to the following year. (Source: POL-002-leave-and-time-off-policy.md, Section 10. Sick Leave Carryover)"
+When is a medical certificate required for Sick Leave?,When Sick Leave exceeds 2 consecutive working days,"A medical certificate may be required when Sick Leave exceeds two (2) consecutive working days, patterns of excessive absenteeism are observed, or management determines additional documentation is necessary. (Source: POL-002-leave-and-time-off-policy.md)"
+How much Bereavement Leave is available?,3 paid working days,"Regular employees are entitled to three (3) paid working days of Bereavement Leave upon the death of an immediate family member. 
+
+(POL-002-leave-and-time-off-policy.md)"
+What is the company's work model?,Remote-first,"According to POL-003 Remote Work Policy, InterCloud Solutions Philippines, Inc. operates under a remote-first working model. 
+
+(POL-003-remote-work-policy.md)"
+What are the core collaboration hours?,10:00 AM to 3:00 PM Philippine Time,The core collaboration hours are from 10:00 AM to 3:00 PM Philippine Time. (Source: POL-003-remote-work-policy.md)
+Can employees work outside the Philippines?,"Yes, with approval for up to 30 calendar days per year","Yes, employees may request temporary work outside the Philippines for up to thirty (30) calendar days per year. Approval is required from the Immediate Manager and Department Head. (POL-003-remote-work-policy.md)"
+What approvals are required for working outside the Philippines?,Immediate Manager and Department Head,"For employees to work outside the Philippines, approval is required from their Immediate Manager and Department Head. If the request exceeds thirty (30) calendar days, executive approval is also required. 
+
+(POL-003-remote-work-policy.md)"
+How much is the monthly internet allowance?,"₱1,500 per month","According to POL-003-remote-work-policy.md, regular employees receive a monthly internet allowance of ₱1,500."
+What is the recommended minimum internet speed?,50 Mbps download and 20 Mbps upload,"According to POL-003-remote-work-policy.md, the recommended minimum internet speed is:
+
+* 50 Mbps download
+* 20 Mbps upload"
+Is MFA required for company systems?,"Yes, MFA is mandatory for specified systems","According to POL-004-information-security-policy.md, Multi-factor authentication is mandatory for:
+
+* Email accounts
+* VPN access
+* Administrative systems
+* Source code repositories
+* Cloud platforms
+
+Therefore, MFA is required for company systems."
+What is the minimum password length?,12 characters,"According to POL-004-information-security-policy.md, the minimum password length is 12 characters."
+What data classification is used for production credentials?,Restricted,"According to the policy document POL-004-information-security-policy.md, production credentials are classified as ""Restricted"" information."
+How quickly must security incidents be reported?,Within 24 hours of discovery,Incidents should be reported within twenty-four (24) hours of discovery. (Source: POL-004-information-security-policy.md)
+After how many minutes should devices automatically lock?,15 minutes of inactivity,"According to POL-004-information-security-policy.md, devices should automatically lock after fifteen (15) minutes of inactivity."
+Can client confidential information be entered into public AI tools?,No,"According to POL-004-information-security-policy.md, employees may not enter client confidential information into public AI systems."
+Can employees install unauthorized software?,No,"According to POL-005-acceptable-use-policy.md, employees must not install unlicensed applications. Additionally, POL-008-equipment-and-asset-policy.md states that only approved software may be installed on company devices."
+Is limited personal use of company systems allowed?,"Yes, if it does not interfere with work or create security risks","Yes, limited personal use of company systems is permitted, provided it does not interfere with work responsibilities, does not consume excessive resources, does not violate company policies, and does not create security risks. (Source: POL-005-acceptable-use-policy.md, Section 4. Business Use Expectations)"
+Can employees copy source code to personal repositories?,No,"According to POL-005-acceptable-use-policy.md, employees may not copy source code to personal repositories."
+Can company files be stored in personal cloud drives?,No,"According to POL-005-acceptable-use-policy.md, employees should store business information only in approved company systems. Employees may not store company files in personal cloud accounts."
+What is the meal reimbursement limit for domestic business meals?,₱800 per person,"The standard reimbursement limit for domestic business meals is ₱800 per person. This is stated in POL-006-expense-reimbursement-policy.md under the ""Meal Limits"" section."
+How long do employees have to submit reimbursement requests?,30 calendar days from the expense date,Employees must submit reimbursement requests within thirty (30) calendar days of the expense date. (POL-006-expense-reimbursement-policy.md)
+"What approvals are required for expenses above ₱20,000?","Immediate Manager, Department Head, and Finance Manager","According to POL-006-expense-reimbursement-policy.md, for expenses above ₱20,000, the following approvals are required:
+
+* Immediate Manager
+* Department Head
+* Finance Manager"
+Are traffic violations reimbursable?,No,I could not find that information in the policy documents.
+How are foreign currency expenses reimbursed?,Converted to PHP using the company's financial institution exchange rate,Foreign currency expenses incurred in international business are reimbursed by converting them to Philippine Pesos (PHP) using the exchange rate applied by the company's financial institution at the time of processing. (Source: POL-006-expense-reimbursement-policy.md)
+Who approves domestic travel?,Immediate Manager,"According to POL-007-travel-policy.md, domestic travel requires approval from the Immediate Manager."
+Who approves international travel?,Immediate Manager and Department Head,"International travel requires approval from the Immediate Manager and the Department Head. Additionally, international travel exceeding seven (7) calendar days requires executive approval. 
+
+(POL-007-travel-policy.md)"
+What additional approval is required for international travel longer than 7 days?,Executive approval,"For international travel exceeding seven (7) calendar days, executive approval is additionally required. (Source: POL-007-travel-policy.md)"
+What is the domestic hotel guideline?,"Up to ₱6,000 per night","According to POL-007-travel-policy.md, the domestic hotel guideline is that employees may book hotels that are:
+
+* Safe
+* Professionally suitable
+* Reasonably priced
+* Conveniently located
+
+Additionally, the maximum recommended rate for domestic accommodation is ₱6,000 per night."
+What is the international hotel guideline?,Up to USD 200 per night,"The international hotel guideline is a maximum recommended rate of USD 200 per night. 
+
+(POL-007-travel-policy.md, #8. Accommodation, International Accommodation Guideline)"
+What is the domestic travel meal allowance?,"₱1,500 per day","The domestic travel meal allowance is ₱1,500 per day. 
+
+(POL-007-travel-policy.md)"
+How long before departure should travel advances be requested?,At least 5 working days,"Requests for travel advances should be submitted at least five (5) working days before departure. (Source: POL-007-travel-policy.md, Section 15. Travel Advances)"
+When must travel advances be reconciled?,Within 10 working days after return,"According to POL-007-travel-policy.md, travel advances must be reconciled within ten (10) working days after returning."
+Who owns company-issued equipment?,"InterCloud Solutions Philippines, Inc.","According to POL-008 Equipment and Asset Policy, all company-issued assets remain the property of InterCloud Solutions. (Source: POL-008-equipment-and-asset-policy.md, Section 3. Company-Owned Assets)"
+How quickly must lost equipment be reported?,Within 24 hours of discovery,"According to POL-008-equipment-and-asset-policy.md, employees should report losses within twenty-four (24) hours of discovery."
+Can employees perform their own equipment repairs?,"No, unauthorized repairs are not permitted","Employees should not attempt unauthorized repairs. 
+
+(POL-008-equipment-and-asset-policy.md, #11. Damage to Equipment)"
+What must employees return upon separation?,All company-issued assets,"According to POL-008 Equipment and Asset Policy, required items to be returned upon separation include:
+
+* Laptops
+* Chargers
+* Monitors
+* Mobile devices
+* Security tokens
+* Access cards
+
+Final clearance may be delayed until all assets are returned."
+Can software licenses be shared?,No,"No, employees may not share software licenses. This is stated in Section 13 of POL-008-equipment-and-asset-policy.md."
+How long is the probationary period?,Up to 6 months,"The probationary period is up to six (6) months. 
+
+(POL-009-performance-management-policy.md)"
+How often are formal performance reviews conducted?,Twice annually,"The company conducts formal performance reviews twice annually, including Mid-Year Review and Annual Review. Managers may also conduct additional reviews as needed. (Source: POL-009-performance-management-policy.md, Section 6: Performance Review Cycle)"
+What are the performance rating levels?,"Exceptional, Exceeds Expectations, Meets Expectations, Needs Improvement, Unsatisfactory","According to POL-009-performance-management-policy.md, the company uses the following performance ratings:
+
+1. Exceptional
+2. Exceeds Expectations
+3. Meets Expectations
+4. Needs Improvement
+5. Unsatisfactory"
+How long does a typical PIP last?,30 calendar days,"A typical Performance Improvement Plan (PIP) lasts thirty (30) calendar days. (Source: POL-009-performance-management-policy.md, Section 16)"
+Can a PIP be extended?,"Yes, generally for an additional 30 calendar days","Yes, a PIP can be extended. The company may extend a PIP when additional evaluation is required (POL-009-performance-management-policy.md). Extensions are generally limited to an additional thirty (30) calendar days."
+What are possible PIP outcomes?,"Successful Completion, PIP Extension, or Separation","Possible outcomes of a Performance Improvement Plan (PIP) include:
+
+1. Successful Completion: Employee demonstrates sustained improvement.
+2. PIP Extension:"
+How many working days does an employee have to appeal a review?,10 working days,"According to POL-009-performance-management-policy.md, employees have ten (10) working days to submit an appeal after receiving the performance evaluation."
+What are the stages of the hiring process?,"HR Screening, Hiring Manager Interview, Technical/Functional Assessment, Final Interview","The standard hiring process generally includes the following stages:
+
+1. HR Screening (Initial qualification review)
+2. Hiring Manager Interview (Assessment of role suitability)
+3. Technical or Functional Assessment (Evaluation of job-specific capabilities when applicable)
+4. Final Interview (Assessment of organizational fit and overall readiness)
+
+(POL-010-recruitment-and-hiring-policy.md)"
+Who can approve employment offers?,"Hiring Manager, Department Head, and People & Culture","According to POL-010-recruitment-and-hiring-policy.md, employment offers must be approved by:
+
+* Hiring Manager
+* Department Head
+* People & Culture"
+How many business days does a candidate have to accept an offer?,5 business days,"According to POL-010-recruitment-and-hiring-policy.md, candidates should confirm acceptance within five (5) business days unless otherwise specified."
+When may an employment offer be withdrawn?,When material misrepresentations are discovered,I could not find that information in the policy documents.
+When does a referral qualify for a referral bonus?,When the referred employee successfully completes probation,"To qualify for a referral bonus, the referring employee must identify the candidate before recruitment engagement, and the candidate must successfully complete probation."
+What is the annual learning budget?,"Up to ₱30,000 per calendar year","According to POL-011-learning-and-development-policy.md, regular employees are eligible for an annual learning budget of up to ₱30,000 per calendar year."
+Does the learning budget carry over?,No,I could not find that information in the policy documents.
+When can certification exams be reimbursed?,When pre-approved and the employee passes the examination,"Certification examination fees may be reimbursed when the certification is pre-approved, the employee passes the examination, and required documentation is submitted. (POL-011-learning-and-development-policy.md)"
+How many Study Leave days are available?,Up to 3 working days per calendar year,"According to POL-011-learning-and-development-policy.md, employees are entitled to up to three (3) working days per calendar year for Study Leave."
+"What happens if an employee resigns within 90 days after receiving training worth more than ₱20,000?",They may be required to reimburse a prorated portion,"Employees who voluntarily resign within ninety (90) calendar days of receiving company-funded training exceeding ₱20,000 may be required to reimburse a prorated portion of training expenses (POL-011-learning-and-development-policy.md)."
+What skills are identified as strategic priorities?,"AI, Cloud Computing, Software Architecture, Cybersecurity, Data Engineering, Project Management, and Leadership","According to POL-011-learning-and-development-policy.md, the company may prioritize investment in the following skills that support strategic objectives:
+
+1. Artificial Intelligence
+2. Cloud Computing
+3. Software Architecture
+4. Cybersecurity
+5. Data Engineering
+6. Project Management
+7. Leadership"
+What is the maximum gift value an employee may accept without written approval?,"₱5,000","According to POL-012-code-of-conduct.md, the maximum gift value an employee may accept without written approval from their Department Head is ₱5,000."
+Are cash gifts permitted?,No,"No, cash gifts are prohibited. (Source: POL-012-code-of-conduct.md, Section 12. Gifts and Business Courtesies)"
+Does confidentiality continue after employment ends?,Yes,"Yes, confidentiality obligations continue after employment ends. (Source: POL-012-code-of-conduct.md)"
+Is retaliation against employees who report concerns allowed?,No,"No, retaliation against individuals who report concerns or participate in investigations is prohibited. (POL-012-code-of-conduct.md, #18. Non-Retaliation)"
+What disciplinary actions may result from policy violations?,"Coaching, Written Warning, Suspension, or Termination","Disciplinary actions that may result from policy violations include:
+
+* Coaching (POL-012-code-of-conduct.md)
+* Written warnings (POL-012-code-of-conduct.md)
+* Suspension (POL-012-code-of-conduct.md)
+* Termination of employment (POL-012-code-of-conduct.md, POL-002-leave-and-time-off-policy.md)"

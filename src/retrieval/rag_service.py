@@ -34,7 +34,7 @@ vectorstore = Chroma(
 
 retriever = vectorstore.as_retriever(
     search_type="similarity",
-    search_kwargs={"k": 1}
+    search_kwargs={"k": 3}
 )
 
 
@@ -76,3 +76,4 @@ Question:
     response = llm.invoke(prompt)
 
     return response.content, docs
+
